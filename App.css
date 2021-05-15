@@ -1,0 +1,80 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+table {
+  border: 2px solid #32CD32;
+  border-spacing: 0;
+  border-collapse: collapse;
+  transition: all 0.5s;
+}
+td {
+  border: 1px solid teal;
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  color: whitesmoke;
+}
+  td:hover{
+      background-color:turquoise;
+      
+
+  }
+
+tr:nth-child(3n) {
+  border-bottom: 4px solid lightgrey;
+}
+
+tr:nth-child(3n+1) {
+  border-top: 4px solid lightgrey;
+}
+
+td:nth-child(3n) {
+  border-right: 4px solid lightgrey;
+}
+
+td:nth-child(3n+1) {
+  border-left: 4px solid lightgrey;
+}
+h1 {
+font-size: 100px;
+font-weight: bolder;
+text-align: center;
+background-color: teal;
+}
+body{
+  background-color: black;
+}
+td#first.one{
+  background-color: teal;
+}
+td#second.two{
+  background-color: teal;
+}
+td#third.three{
+  background-color: teal;
+}
+td#forth.four{
+  background-color: teal;
+}
+td#fifth.five{
+  background-color: teal;
+}
+td#sixth.six{
+  background-color: teal;
+}
+td#seventh.seven{
+  background-color: teal;
+}
+td#eighth.eight{
+  background-color: teal;
+}
+td#ninth.nine{
+  background-color: teal;
+}
+
